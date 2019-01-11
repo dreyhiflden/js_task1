@@ -1,6 +1,6 @@
 let toHex = value => {
 
-  let hexVal = ["0", "1", "2", "3", "4", "5", "6", "8", "9", "A", "B", "C", "D", "E", "F",],
+  let hexVal = ["0", "1", "2", "3", "4", "5", "6", "8", "9", "A", "B", "C", "D", "E", "F"],
       reminder,
       returnValue = '',
       hexSymb = '0x';
