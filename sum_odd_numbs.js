@@ -1,4 +1,4 @@
-let rowSumOddNumbers = n => {
+const rowSumOddNumbers = n => {
   return n**3;
 };
 
