@@ -16,3 +16,4 @@ let toHex = value => {
 };
 
 console.log(toHex(42));
+
