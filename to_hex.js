@@ -1,16 +1,16 @@
-let toHex = value => {
+const toHex = value => {
 
-  let hexVal = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"],
-      reminder,
-      returnValue = '';
+  let hexVal = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'],
+      remainder,
+      result = '';
 
   while (value !== 0) {
-    reminder = value % 16;
+    remainder = value % 16;
     value = parseInt((value / 16), 10);
-    returnValue = hexVal[reminder] + returnValue;
+    result = hexVal[remainder] + result;
   }
 
-  return `${returnValue}`;
+  return `${result}`;
 
 };
 
