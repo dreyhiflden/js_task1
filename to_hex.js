@@ -10,7 +10,7 @@ const toHex = value => {
     result = hexVal[remainder] + result;
   }
 
-  return `${result}`;
+  return result;
 
 };
 
@@ -25,4 +25,3 @@ console.assert(
   toHex(420).toLowerCase() === '1a4',
   '420 should be converted to 1a4'
 );
-

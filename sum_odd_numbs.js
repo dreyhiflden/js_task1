@@ -3,4 +3,3 @@ const rowSumOddNumbers = n => {
 };
 
 console.log(rowSumOddNumbers(3));
-
