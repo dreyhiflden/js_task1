@@ -11,7 +11,6 @@ const toHex = value => {
   }
 
   return result;
-
 };
 
 console.log(toHex(420));
